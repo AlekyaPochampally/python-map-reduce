@@ -5,7 +5,7 @@
 # An inplace sort is good for small data only 
 # This step is done automatically in Hadoop
 
-with open("partoutput.txt", "r") as unsorted:
+with open("purchasesoutput.txt", "r") as unsorted:
   with open("sortedoutput.txt", "w") as sorted:
 
     dataList = unsorted.readlines()
